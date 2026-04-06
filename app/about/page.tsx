@@ -163,6 +163,45 @@ const AboutPage = () => {
               </p>
             </div>
           </section>
+
+          <section className={styles.section}>
+            <div className={styles.sectionHeader}>
+              <span className={styles.sectionNumber}>
+                {about.writingLinks.length > 0 ? '06' : '05'}
+              </span>
+              <h2 className={styles.sectionTitle}>
+                {about.attribution.title}
+              </h2>
+            </div>
+
+            <div className={styles.sectionBody}>
+              <div className={styles.creditCard}>
+                <p className={styles.paragraph}>
+                  {about.attribution.description}
+                </p>
+                <div className={styles.creditLinks}>
+                  <a
+                    href={about.attribution.creatorUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.creditLink}
+                  >
+                    <span>{about.attribution.creatorLabel}</span>
+                    <VscLinkExternal size={14} />
+                  </a>
+                  <a
+                    href={about.attribution.projectUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.creditLink}
+                  >
+                    <span>{about.attribution.projectLabel}</span>
+                    <VscLinkExternal size={14} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
 
         <footer className={styles.footer}>

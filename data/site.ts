@@ -83,6 +83,16 @@ const writingLinks: WritingLink[] = [
   },
 ];
 
+const attribution = {
+  title: 'Open Source Credit',
+  description:
+    'This portfolio started from the open-source vscode-portfolio project by Nitin Ranganath and was then forked, reworked, and personalized for my own content, engineering focus, and deployment setup.',
+  creatorLabel: 'Nitin Ranganath',
+  creatorUrl: 'https://github.com/itsnitinr',
+  projectLabel: 'itsnitinr/vscode-portfolio',
+  projectUrl: 'https://github.com/itsnitinr/vscode-portfolio',
+};
+
 export const siteConfig = {
   owner: {
     name: 'Osman ASLAN',
@@ -138,6 +148,7 @@ export const siteConfig = {
     writingLinks,
     beyondCode:
       'Outside of coding, I enjoy exploring new tools, learning through side projects, and improving the small details that make products feel complete.',
+    attribution,
   },
   contact: {
     title: 'Contact Me',

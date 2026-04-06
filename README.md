@@ -5,6 +5,13 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 ![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
 
+## Attribution
+
+This version was forked from and built on top of the original open-source
+[`itsnitinr/vscode-portfolio`](https://github.com/itsnitinr/vscode-portfolio)
+project by [Nitin Ranganath](https://github.com/itsnitinr), then adapted for my
+own portfolio content, GitHub data, and deployment setup.
+
 ## Features Roadmap
 
 - [ ] Themes and customizations
